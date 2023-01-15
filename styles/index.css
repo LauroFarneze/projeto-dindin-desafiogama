@@ -1,0 +1,138 @@
+#educacao-financeira{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1{
+
+    width: 80%;
+
+    text-align: left;
+
+    font-size: 60px;
+    font-weight: 700;
+
+    color: var(--text-titles);
+    
+}
+
+
+
+#card-principal{
+
+    margin: 10% 0% 5% 0%;
+}
+
+#quero-saber-mais p{
+
+    font-size: 1.6rem;
+
+    width: 70%;
+
+    margin: 3rem 0rem;
+    
+}
+
+#quero-saber-mais a{
+
+    font-size: 1.6rem;
+
+    color: var(--text-titles);
+
+    border: 2px solid var(--text-titles);
+    border-radius: 2rem;
+
+    
+    padding: 0.5rem 2.5rem;
+
+
+    text-decoration: none;
+}
+
+#quero-saber-mais a:hover{
+
+    text-decoration: underline;
+}
+
+#cards-cursos{
+
+
+    background-color: var(--bg-background);
+
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+
+    margin: 5rem 0rem;
+
+    text-align: center;
+}
+
+
+.card h2{
+
+    color: var(--text-titles);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card p{
+
+    width: 300px;
+
+    text-align: center;
+
+    margin: 1.5rem 0rem;
+}
+
+.card button{
+
+    padding: 0.5rem 2rem;
+
+    border: 1px solid #fff;
+    border-radius: 2rem;
+
+    background-color: var(--text-titles);
+
+    color: #fff;
+    
+}
+
+.card button:hover{
+
+    transition: 0.5s;
+
+    background-color: #ff7da8;
+    
+}
+
+.sobre-nos{
+
+    width: 100%;
+
+    font-size: 16px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+
+}
+
+
+ 
+.sobre-nos p{
+
+    width: 40%;
+
+}
+
