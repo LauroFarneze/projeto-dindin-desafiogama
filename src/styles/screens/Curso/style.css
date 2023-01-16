@@ -1,0 +1,61 @@
+.classe-i {
+    display: flex;
+    justify-content: column;
+}
+
+.classe-i img {
+    margin: 5rem -5rem;
+    height: 360px;
+}
+
+.titulo-1 {
+    width: 28rem;
+    margin: 4rem 15rem;
+}
+
+#titulo-investimento-para-iniciantes {
+    margin: 1rem 0rem;
+    color: var(--text-titles);
+    font-size: var(--font-size-big);
+}
+
+#root {
+    background-color: var(--bg-background);
+}
+
+#card-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trio {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+hr {
+    width: 98rem;
+}
+
+.aula {
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    margin: 3rem;
+}
+
+h2 {
+    padding: 1rem 0rem;
+    font-size: var(--font-size-md);
+    color: var(--text-titles);
+}
+
+p {
+    font-size: var(--font-size-sm);
+}
+
+iframe {
+    margin: 4rem;
+}
