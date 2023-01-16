@@ -37,8 +37,7 @@ nav a:hover{
     color: var(--text-titles);
 }
 
-@media only screen and (max-width: 480px) {
-
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
     header img {
         width: 120px;
@@ -52,8 +51,26 @@ nav a:hover{
 
     nav a {
         margin-left: 1rem;
-        font-size: 12px;
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    header img {
+        width: 190px;
     }
 
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;        
+    }
+
+    nav a {
+        margin-left: 22px;
+        font-size: 20px;
+    }
 
 }
