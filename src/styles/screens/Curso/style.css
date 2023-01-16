@@ -61,7 +61,7 @@ hr {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
 .classe-i img {
     display: none;
@@ -125,4 +125,73 @@ h2 {
 hr {
     width: 350px;
 }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .classe-i img {
+        width: 280px;
+        height: 281px;
+        margin: 80px 40px;
+    }
+    
+    .titulo-1 {
+        margin: 35px 0px;
+    }
+    
+    #titulo-investimento-para-iniciantes {
+        margin: 30px;
+        font-size: 42px;
+    }
+    
+    .texto-1 {
+        margin: 30px;
+        font-size: 17px;
+        line-height: 21px;
+    }
+    
+    #card-vertical {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .trio {
+        display: flex;
+        flex-direction: row;
+        margin: 18px 0px;
+    }
+    
+    iframe {
+        width: 300px;
+        height: 210px;
+        margin: 42px 10px;
+        margin-block-end: 0;
+    }
+    
+    .aula {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        margin: 20px;
+    }
+    
+    h2 {
+        padding: 1rem 0rem;
+        font-size: 29px;
+        color: var(--text-titles);
+    }
+    
+    p {
+        font-size: 17px;
+    }
+    
+    hr {
+        width: 726px;
+    }
+
+    #aula-3 {
+        margin-block-end: 35px;
+    }
 }
