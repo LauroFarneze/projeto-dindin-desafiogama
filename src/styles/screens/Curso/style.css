@@ -5,7 +5,7 @@
 
 .classe-i img {
     margin: 5rem -5rem;
-    height: 360px;
+    height: 22.5rem;
 }
 
 .titulo-1 {
@@ -32,7 +32,7 @@
 .trio {
     display: flex;
     flex-direction: row;
-    margin: 5px;
+    margin: 0.313rem;
 }
 
 iframe {
