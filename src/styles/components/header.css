@@ -70,7 +70,28 @@ nav a:hover{
 
     nav a {
         margin-left: 22px;
-        font-size: 20px;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    header img {
+        width: 190px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row; 
+        
+        margin-right: 15%;
+    }
+
+    nav a {
+        
+        font-size: 0.9rem;
     }
 
 }
