@@ -1,0 +1,65 @@
+.main{
+display: flex;
+width: 100%;
+}
+#info{
+display: -webkit-inline-box;
+padding: 61px 0px 0px 0px;
+justify-content: space-evenly;
+}
+.caixa{
+flex-direction: column;
+justify-content: top;
+margin: 0px 0px 0px 139px;
+ 
+}
+#nome{
+width: 435px;
+height: 32px;
+margin-bottom: 15px;
+background: #FFFFFF;
+border: 1px solid #686868;
+border-radius: 7px;
+}
+#email{
+width: 435px;
+height: 32px;
+margin-bottom: 15px;
+background: #FFFFFF;
+border: 1px solid #686868;
+border-radius: 7px;
+}
+#area{
+width: 435px;
+height: 193px;
+margin-bottom: 15px;
+background: #FFFFFF;
+border: 1px solid #686868;
+border-radius: 7px;
+}
+
+#ilustra-contato{
+width: 444px;
+height: 444px;
+margin: 0px auto 0 201px;
+}    
+
+#contato {
+height: 46px;
+margin: 0px auto 44px;
+font-weight: 900;
+font-size: 40px;
+color:var(--text-titles);
+}
+
+#botao{
+font-size: 14px;
+line-height: 29px;
+text-align: center;
+width: 108px;
+height: 32px;
+
+margin: 15px auto 97px 0px;
+background: var(--text-titles);
+border-radius: 50px;
+}
