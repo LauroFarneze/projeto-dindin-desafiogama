@@ -29,6 +29,11 @@
     align-items: center;
 }
 
+.line {
+    padding: 0% 10%;
+    border-bottom: 2px solid var(--line-color);
+}
+
 .trio {
     display: flex;
     flex-direction: row;
@@ -54,10 +59,6 @@ h2 {
 
 p {
     font-size: var(--font-size-sm);
-}
-
-hr {
-    width: 98rem;
 }
 
 
@@ -121,10 +122,6 @@ h2 {
     text-align: center;
     font-size: 16px;
 }
-
-hr {
-    width: 350px;
-}
 }
 
 
@@ -155,6 +152,10 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .line {
+        padding: 0px 7px;
     }
     
     .trio {
@@ -187,10 +188,6 @@ hr {
         font-size: 17px;
     }
     
-    hr {
-        width: 726px;
-    }
-
     #aula-3 {
         margin-block-end: 35px;
     }
