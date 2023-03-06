@@ -119,16 +119,130 @@ border-color: #c4c4c4 ;
 
 } 
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
 
-h1 {
-margin: 30px;
-font-size: 42px;
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .conteudo{
+        margin:5%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        }
 }
-h2{
-margin: 30px;
-font-size: 17px;
-line-height: 21px;
-}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .conteudo{
+        margin:5%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        }
     
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    
+    .conteudo{
+        margin:5%;
+        display: flex;;
+        justify-content: center;
+        flex-direction: column;
+      
+    }
+}
+@media only screen and (max-width: 480px){  
+
+
+.conteudo{
+    margin:5%;
+    display: flex;;
+    justify-content: center;
+    flex-direction: column;
+}
+#caixa1{
+background-image: url(/assets/imagens/image\ 3\ \(Traced\).png);
+background-repeat: no-repeat;
+}
+#caixa2{
+background-image: url(/assets/imagens/image\ 2\ \(Traced\).png);
+background-repeat: no-repeat;
+}
+
+#caixa3{
+background-image: url(/assets/imagens/image\ 4\ \(Traced\).png);
+background-repeat: no-repeat;
+}
+#image2 {
+    display: none;
+}
+#image3 {
+    display: none;
+}
+#image4 {
+    display: none;
+}
+h1 {
+    width: 150px;
+    height: 69px;
+    padding: 0px 82px;
+    
+    font-weight: 550;
+    font-size: 30px;
+    line-height: 69px;
+    
+    color: var(--text-titles);
+}
+h2 {
+    width: 300px;
+    height: 23px;
+    padding: 0px 15px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+    }
+  h3 {
+width: 250px;
+height: 40px;
+padding: 30px 0px 50px 0px;
+text-align: center;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+color: var(--text-titles);
+}
+h4 {
+width: 300px;
+height: 150px;
+
+margin: 37px 0px 65px 0px; 
+
+font-weight: 300;
+font-size: 12px;
+line-height: 21px;
+color: var(black);
+
+}
+h5 {
+width: 300px;
+height: 40px;
+padding: 30px 0px 50px 0px;
+text-align: center;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+color: var(--text-titles);
+
+}
+h6 {
+width: 300px;
+height: 150px;
+
+margin: 37px 0px 65px 0px; 
+
+font-weight: 300;
+font-size: 12px;
+line-height: 21px;
+color: var(black);
+}
+
 }
