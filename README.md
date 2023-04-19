@@ -11,5 +11,3 @@ Desafio proposto pela Gama Academy como requisito avaliativo para conclusão do 
 * O site deve ser criado usando HTML e CSS;
 * O site deve ser responsivo para Desktop, iPhones e Tablets;
 * As páginas devem ter links corretamente umas com as outras.
-
-
